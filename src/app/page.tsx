@@ -172,7 +172,7 @@ export default function HomePage() {
               <div className="relative">
                 <div className="w-80 h-80 rounded-full overflow-hidden border-8 border-yellow-500 shadow-2xl">
                   <Image
-                    src="/images/dr-flores-headshot.jpg"
+                    src="/public/images/dr-flores-headshot.jpg"
                     alt="Dr. Israel Flores"
                     width={320}
                     height={320}
