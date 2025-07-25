@@ -315,7 +315,7 @@ const SampleWorkCarousel = () => {
                 </div>
                 <div className="p-8">
                   <VideoPlayer
-                    videoPath={"/ruff-ruff-repairs.mp4"}
+                    videoPath={"ruff-ruff-repairs.mp4"}
                     title="Ruff, Ruff Repairs Demo"
                     description="Click to play interactive preview"
                   />
@@ -373,8 +373,8 @@ const SampleWorkCarousel = () => {
                 </div>
                 <div className="bg-white/10 backdrop-blur rounded-lg p-3 mb-3">
                   <PDFViewer
-                    pdfPath={"/dialogic-reading.pdf"}
-                    previewPath="/dialogic-reading-cover.png"
+                    pdfPath={"dialogic-reading.pdf"}
+                    previewPath="dialogic-reading-cover.png"
                     title="Download PDF Guide"
                     compact={true}
                   />
@@ -426,7 +426,7 @@ const SampleWorkCarousel = () => {
                 </div>
                 <div className="p-8">
                   <VideoPlayer
-                    videoPath={"/BCY Farm.mp4"}
+                    videoPath={"BCY Farm.mp4"}
                     title="Blue&apos;s Clues Game Demo"
                     description="Click to play interactive preview"
                   />
@@ -486,7 +486,7 @@ const SampleWorkCarousel = () => {
                     <h3 className="text-sm font-bold">Family Picture Maker</h3>
                   </div>
                   <div className="p-2">
-                    <VideoPlayer videoPath={"/family-maker.mp4"} title="Play Demo" compact={true} aspectRatio="16/9" />
+                    <VideoPlayer videoPath={"family-maker.mp4"} title="Play Demo" compact={true} aspectRatio="16/9" />
                     <p className="text-gray-700 text-xs mt-2">
                       Empowers children to create family portraits while encouraging thinking about similarities and
                       differences.
@@ -502,8 +502,8 @@ const SampleWorkCarousel = () => {
                   </div>
                   <div className="p-2">
                     <PDFViewer
-                      pdfPath={"/estatuas.pdf"}
-                      previewPath="/estatuas.png"
+                      pdfPath={"estatuas.pdf"}
+                      previewPath="estatuas.png"
                       title="Read Me"
                       compact={true}
                       aspectRatio="4/3"
