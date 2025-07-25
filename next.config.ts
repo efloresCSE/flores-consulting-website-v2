@@ -1,20 +1,13 @@
-/**
- * @type {import('next').NextConfig}
- */
-
-const isProduction = process.env.NODE_ENV === 'production';
-
+/** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
   output: 'export',
-  basePath: isProduction ? '/flores-consulting-website-v2' : '',
-  assetPrefix: isProduction ? `/flores-consulting-website-v2/` : '',
-
-  // Optional: Change the output directory `out` -> `dist`
-  // distDir: 'dist',
+  basePath: isProd ? '/flores-consulting-website-v2' : '',
+  assetPrefix: isProd ? '/flores-consulting-website-v2/' : '',
   images: {
-    unoptimized: true, // Disable image optimization
+    unoptimized: true,
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
